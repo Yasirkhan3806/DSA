@@ -141,21 +141,17 @@ class BinaryTree():
         return (None, False)
 
 
-
-            
-
-
 binary_tree = BinaryTree()
 for num in range(10):
     binary_tree.add_node(num)
 
-print(binary_tree.get_node_with_parent(9))
+# # print(binary_tree.get_node_with_parent(9))
 
-binary_tree.delete_node(9)
+# binary_tree.delete_node(9)
 
-print(binary_tree.get_node_with_parent(9))
+# print(binary_tree.get_node_with_parent(9))
 
-print(binary_tree.search(9))
+# print(binary_tree.search(9))
 
 
 
